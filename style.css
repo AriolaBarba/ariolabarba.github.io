@@ -1,0 +1,452 @@
+/* Reset and basic styling */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Raleway", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  color: #2F3440;
+  line-height: 1.6;
+}
+
+/* Header Styling */
+header {
+  text-align: center;
+  padding: 2rem;
+  background-color: #2F3440;
+  color: white;
+  border-bottom: 0.5px solid #F7F6F3;
+}
+
+h2 {
+  font-family: "Gilda Display", serif;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: -1px;
+}
+
+header h1 {
+  font-size: 2.5rem;
+}
+
+header nav a {
+  color: white;
+  margin: 0 1rem;
+  text-decoration: none;
+  font-family: "Raleway", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+header nav a:hover {
+  text-decoration: underline;
+}
+
+/* Section Styling */
+section {
+  /* padding: 2rem; */
+  padding: 5rem 10rem;
+  /* margin: 0rem auto; */
+  /* max-width: 800px; */
+  background-color: #F7F6F3;
+}
+
+#parentintro {
+  display: flex;
+  justify-content: space-between;
+}
+
+#introimg {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40%; /* Makes the image responsive */
+  height: auto;
+}
+
+#introsection {
+  padding: 10rem 10rem;
+  background-color: #2F3440;
+  color: #F7F6F3;
+
+}
+
+#introsection h2 {
+  font-size: 4rem;
+  color: #F7F6F3;
+  line-height: 5rem;
+}
+
+#intro {
+  width: 60%;
+}
+
+.introtext {
+  font-family: "Shadows Into Light", cursive;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: 1.5px;
+  font-size: 1.4em;
+  margin: 0rem 0.2rem;
+}
+
+.hover-text {
+  font-family: "Shadows Into Light", cursive;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: 1.5px;
+  line-height: 0.1rem;
+  font-size: 1.2rem;
+}
+/* .code {
+  font-family: "Turret Road", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: 1px;
+  font-size: 1.2rem;
+  margin: 0rem 0.2rem;
+} */
+
+
+h2 {
+  font-size: 2rem;
+  color: #2F3440;
+  margin-bottom: 1rem;
+}
+
+h4 {
+  font-family: "Raleway", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  color: #2F3440;
+  font-size: 0.8rem;
+  line-height: 2rem;
+  letter-spacing: 2px;
+}
+
+h3 {
+  font-family: "Raleway", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #2F3440;
+}
+
+.skillset-container {
+  padding-bottom: 0rem;
+}
+.parent-skillset {
+  width: 60%;
+
+}
+
+.skillset {
+    display: flex;               /* Align items in a row */
+    list-style-type: none;       /* Remove bullets */
+    padding: 0;
+    margin: 0;
+    gap: 8px;
+    flex-wrap: wrap;
+    width: 80%;
+}
+
+.skillset li {
+    background-color: #764747;
+    color: #F7F6F3;
+    padding: 7px 20px;          /* Size of each rectangle */
+    border-radius: 3px;          /* Optional: rounded corners */
+    font-size: 14px;             /* Set text size */
+    text-align: center;          /* Center text inside each rectangle */
+    flex: 0 1 auto;
+    box-shadow: inset 0 0 0 0 #5B3333;
+    -webkit-transition: ease-out 0.4s;
+    -moz-transition: ease-out 0.4s;
+    transition: ease-out 0.4s;
+    /* flex-wrap: wrap; */
+}
+
+.skillset li:hover {
+  background-color:  #5B3333;
+  color: #F7F6F3
+}
+
+.button {
+  font-family: "Raleway", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  color: #2F3440;
+  font-size: 0.8rem;
+  padding: 0.8rem 2.5rem;
+  border: solid 2px #2F3440;
+  border-radius: 3px;
+  background-color: #F7F6F3;
+  box-shadow: inset 0 0 0 0 #2F3440;
+  -webkit-transition: ease-out 0.4s;
+  -moz-transition: ease-out 0.4s;
+  transition: ease-out 0.4s;
+}
+
+.button:hover {
+  background-color: #2F3440;
+  color: #F7F6F3;
+  text-decoration: none;
+
+}
+
+
+.project {
+  /* margin: rem 0rem 6rem 0rem; */
+  padding: 2rem 0rem 2rem 0rem;
+  border-top: 1px solid #ddd;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  height: auto;
+}
+
+.project-card {
+  margin-right: 6rem;
+}
+
+.project-container {
+  display: flex;
+  align-items: center;
+  /* justify-content: space-between; */
+}
+
+/* projects page */
+
+.project-intro {
+  padding: 10rem 10rem;
+  background-color: #2F3440;
+  color: #F7F6F3;
+  display: flex;
+  align-items: center;
+  height: auto;
+}
+
+.project-spec {
+  width: 100%;
+  padding: 0rem 2rem 0rem 0rem;
+  border-right: solid 0.8px #F7F6F3;
+}
+
+.project-spec a {
+  color: white;
+}
+
+.project-brief {
+  width: 100%;
+  padding: 0rem 0rem 0rem 2rem;
+}
+
+.project-brief h4 {
+  color: #F7F6F3;
+}
+
+.project-intro h2 {
+  font-size: 2rem;
+  color: #F7F6F3;
+}
+
+.project-intro h4 {
+  color: #F7F6F3;
+}
+
+.video-container {
+  width: 100%;
+  overflow: hidden;
+  border: none;
+  margin: 0;
+  padding: 0;
+}
+
+.video-container video {
+  border: none;    /* Removes any border */
+  outline: none;   /* Removes focus outline */
+  margin: 0;       /* Removes any default margin */
+  padding: 0;      /* Removes any default padding */
+  width: 100%;     /* Responsive scaling */
+  height: auto;         /* Maintains aspect ratio */
+}
+
+.mobile-frame {
+  display: flex;
+  justify-content: space-around;
+  padding-bottom: 3rem;
+}
+
+.project-text {
+  padding: 1rem 15rem;
+}
+
+.project-text-one {
+  padding: 3rem 15rem;
+}
+
+.project-text-one li {
+  list-style-type: none;
+  border-bottom: solid 0.8px #2F3440;
+  padding: 2rem 0rem 2rem 1rem;
+  font-size: 0.9rem;
+}
+
+.result-li-top {
+  border-top: solid 0.8px #2F3440;
+}
+
+.project-text-one img {
+  margin-left: 210px;
+}
+
+.project-text h4 {
+  font-weight: 500;
+  font-size: 0.9rem;
+}
+
+
+.hover-container {
+  margin-top: -50px;
+  position: relative;
+  display: flex;
+  flex-direction: column; /* Stack words vertically */
+  gap: 1rem; /* Add spacing between words */
+}
+
+.hover-word {
+  cursor: pointer;
+}
+
+.hover-word:hover {
+  font-weight: 600;
+}
+
+.video-display {
+  position: fixed;
+  top: 50%;
+  right: 25%;
+  transform: translateY(-50%);
+  width: 400px;
+  height: auto;
+  display: none; /* Hide the video initially */
+}
+
+#popup-video {
+  width: 100%; /* Make the video fill the container */
+  border-radius: 5px;
+}
+
+
+
+
+/* projects page */
+
+
+.wave {
+  animation-name: wave-animation;  /* Refers to the name of your @keyframes element below */
+  animation-duration: 2.5s;        /* Change to speed up or slow down */
+  animation-iteration-count: infinite;  /* Never stop waving :) */
+  transform-origin: 70% 70%;       /* Pivot around the bottom-left palm */
+  display: inline-block;
+}
+
+@keyframes wave-animation {
+    0% { transform: rotate( 0.0deg) }
+   10% { transform: rotate(14.0deg) }  /* The following five values can be played with to make the waving more or less extreme */
+   20% { transform: rotate(-8.0deg) }
+   30% { transform: rotate(14.0deg) }
+   40% { transform: rotate(-4.0deg) }
+   50% { transform: rotate(10.0deg) }
+   60% { transform: rotate( 0.0deg) }  /* Reset for the last half to pause */
+  100% { transform: rotate( 0.0deg) }
+}
+
+/* Contact Link Styling */
+#contact {
+  padding: 8rem 10rem;
+  background-color: #2F3440;
+  color: #F7F6F3;
+}
+
+#contact li {
+  list-style-type: none;
+}
+
+#contact h2 {
+  color: #F7F6F3;
+}
+
+a {
+  color: #F7F6F3;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+  header h1 {
+      font-size: 2rem;
+  }
+
+  header nav {
+      display: flex;
+      flex-direction: column;
+  }
+
+  header nav a {
+      margin: 0.5rem 0;
+  }
+}
+
+
+@media (min-width: 1500px) {
+  #introsection {
+      padding: 10rem 22rem;
+  }
+
+  .project-intro {
+    padding: 10rem 22rem;
+  }
+}
+
+
+.typing-container {
+  /* white-space: nowrap; */
+  overflow: hidden;
+  display: inline-block;
+}
+
+/* Blinking cursor */
+.cursor {
+  display: inline-block;
+  color: #007acc;
+  animation: blink 0.7s steps(1) infinite;
+}
+
+@keyframes blink {
+  50% {
+      opacity: 0;
+  }
+}
+
+
+
+#typed-image {
+  width: 300px;
+  height: auto;
+  margin-top: 20px;
+  display: none;
+  opacity: 0;
+  transition: opacity 1s ease-in-out;
+}
+
+#typed-image.show {
+  display: block;
+  opacity: 1;
+}
